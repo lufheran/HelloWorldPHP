@@ -1,5 +1,10 @@
 <?php
 
-    $language="PHP";
+	require 'config.php';
+	require 'helpers.php';
 
-    require "view.php";
+	$confidencial ="un texto cualquiera";
+    $language="PHP";
+    $title = "Mejorandola";
+  //Llamar una funcion
+  view('view',compact('language','title'));
