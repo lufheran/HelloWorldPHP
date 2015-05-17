@@ -2,7 +2,6 @@
 
 	require 'config.php';
 	require 'helpers.php';
-
     $confidencial ="un texto cualquiera";
     $language="PHP";
     $title = "Mejorandola";
