@@ -7,4 +7,4 @@
     $language="PHP";
     $title = "Mejorandola";
   //Llamar una funcion
-  view('view',compact('language','title'));
+  view('home',compact('language','title'));
