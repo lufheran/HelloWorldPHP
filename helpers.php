@@ -9,6 +9,11 @@
 
     function controller($name)
     {
+        if(empty($name))
+        {
+            $name = 'home';
+        }
+
         $file = "controllers/$name.php";
         if(file_exists($file))
         {
